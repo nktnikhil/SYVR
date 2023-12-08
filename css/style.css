@@ -94,6 +94,12 @@ img {
     color: var(--color-white);
     border-color: var(--color-white);
 }
+.image img {
+  object-fit: fill;
+}
+.image {
+    object-fit:fill;
+}
 
 .btn-primary {
     background: var(--color-danger);
